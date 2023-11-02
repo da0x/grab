@@ -21,13 +21,14 @@ Follow these steps to use the **Grab** program:
 2. Build the program.
 
    ```
-   g++ -o grab grab.cpp
+   make
+   make install
    ```
 
 3. Execute the program with the desired Git repository path as a command-line argument.
 
    ```
-   ./grab <repository_path>
+   grab <repository_path>
    ```
 
    Replace `<repository_path>` with the path to the Git repository you want to clone, build, and install.
